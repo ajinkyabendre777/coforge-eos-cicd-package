@@ -6,7 +6,7 @@ set test_report_name=TestRunner.eos.TestRunner.txt
 echo ============ synch repo ============
 CD %test_local_repo%
 git fetch --all
-git reset --hard origin/master
+git reset --hard origin/main
 
 echo ============ run test   =============
 call mvn clean install
