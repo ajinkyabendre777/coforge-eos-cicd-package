@@ -1,6 +1,6 @@
 @echo off
 
-set test_local_repo=C:\Users\ajink\Desktop\coforge cicd\coforge-eos-acceptance-test
+set test_local_repo=C:\CICD\coforge-eos-acceptance-test
 set test_report_name=TestRunner.eos.TestRunner.txt
 
 echo ============ synch repo ============
